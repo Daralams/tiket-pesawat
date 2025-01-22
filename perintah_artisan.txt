@@ -1,0 +1,14 @@
+Perintah Penting Artisan Laravel:
+
+1. running laravel: php artisan serve
+2. membuat model: 
+    - php artisan make:model ModelName
+    - php artisan make:model ModelName -m ( membuat model sekalian migration nya)
+3. membuat controller: php artisan make:controller NameController
+4. migration:
+    - menjalankan function up: php artian migrate
+    - menjalankan function down: php artisan migrate:rollback
+    - menjalankan ke 2 function up dan down sekaligus: php artisan migrate:fresh (biasanya ini dipakai untuk merubah schema)
+5. filament:
+    - membuat user admin: php artisan make:filament-user
+    - membuat resource model filament untuk ui crud: php artisan make:filament-resource ModelName
